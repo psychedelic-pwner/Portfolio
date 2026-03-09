@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaibhav Batra | Senior Security Consultant</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo">Vaibhav <span>Batra</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Experience</a>
+        <a href="#services">Skills</a>
+        <a href="#certificates">Certifications</a>
+        <a href="#portfolio">Writeups</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Vaibhav</span></h1>
+        <h3 class="text-animation">I'm <span id="typing-text"></span></h3>
+        <p>Senior Security Consultant at <strong>4+ years</strong> of offensive security experience across Web &amp; API security testing, Red Team operations, Mobile application security, Cloud environments, and Active Directory exploitation.</p>
+        <p><strong>OSCP+ &middot; eWPTX &middot; CRTP</strong> certified, with experience assessing enterprise environments in banking, fintech, healthcare, and government sectors. Skilled in identifying complex attack paths, chaining vulnerabilities, and simulating real-world adversarial techniques to evaluate and strengthen organizational security posture.</p>
+        <p>Open to <strong>offensive security roles globally</strong>.</p>
+        <p style="font-style:italic;color:#00ffee">&#128274; "Breaking applications before the bad guys do &mdash; so you don't have to worry about them."</p>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/vaibhav-batra-8b7014287" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/psyc177" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://x.com/psyc177" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="mailto:vaibhav.techi01@gmail.com"><i class="bx bx-envelope"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn" id="open-contact">CONTACT ME</a>
+          <a href="src/cv/vaibhav_batra_cv.pdf" download="Vaibhav_Batra_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="bx bx-download"></i> DOWNLOAD CV</a>
+        </div>
+        <div class="contact-modal" id="contact-modal">
+          <div class="contact-modal-content">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form id="contact-form">
+              <div class="input-group">
+                <div class="input-box">
+                  <input type="text" name="name" placeholder="Full Name" required />
+                  <input type="email" name="email" placeholder="Email" required />
+                </div>
+                <div class="input-box">
+                  <input type="tel" name="phone" placeholder="Phone Number" />
+                  <input type="text" name="title" placeholder="Subject" required />
+                </div>
+              </div>
+              <div class="input-group-2">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn" />
+              </div>
+            </form>
+            <button class="close-modal" id="close-contact">X</button>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="src/profile/profile_photo.jpg" alt="Vaibhav Batra" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading reveal">Work <span>Experience</span></h2>
+      <div class="timeline-items" style="--i:1">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Oct 2024 &ndash; Present</div>
+          <div class="timeline-content">
+            <h3>SENIOR SECURITY CONSULTANT &mdash; EY GDS (Ernst &amp; Young)</h3>
+            <p>Leading penetration testing engagements across web, API, mobile, network, and cloud for enterprise banking, fintech, and government clients.</p>
+            <ul>
+              <li>Manual web &amp; API pentesting (black &amp; grey box) &mdash; OWASP Top 10, business logic, auth bypass, IDOR, SSRF</li>
+              <li>Red team ops: Active Directory attacks, credential harvesting, lateral movement, persistence</li>
+              <li>Cloud security: AWS IAM privilege escalation, S3 misconfigs, IaaS/SaaS/PaaS attack paths</li>
+              <li>Mobile: Android &amp; iOS &mdash; SSL pinning bypass, runtime manipulation via Frida &amp; Objection</li>
+              <li>Executive and technical report delivery to C-level stakeholders</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="--i:2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2023 &ndash; Oct 2024</div>
+          <div class="timeline-content">
+            <h3>CYBER SECURITY CONSULTANT &mdash; GoAllSecure</h3>
+            <p>Led red team assessments and full-scope penetration testing across network, web, API, and mobile for diverse industry clients.</p>
+            <ul>
+              <li>Active Directory exploitation: Kerberoasting, Pass-the-Hash, DCSync, BloodHound enumeration</li>
+              <li>Phishing campaigns &amp; social engineering via Evilginx credential harvesting and Gophish</li>
+              <li>Spoofing attacks and full adversary emulation exercises</li>
+              <li>Blue team collaboration on detection improvements and security hardening</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="--i:3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Nov 2022 &ndash; Aug 2023</div>
+          <div class="timeline-content">
+            <h3>SECURITY ENGINEER &mdash; INVIA</h3>
+            <p>Comprehensive security assessments across networks, applications, and systems with detailed remediation reporting.</p>
+            <ul>
+              <li>Network &amp; web application vulnerability assessments</li>
+              <li>Simulated attacks with documented findings and risk ratings</li>
+              <li>Technical report writing and client remediation guidance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal" style="--i:4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Mar 2020 &ndash; Mar 2022</div>
+          <div class="timeline-content">
+            <h3>PENETRATION TESTER &mdash; Xtrude International</h3>
+            <p>Real-world cyber attack simulation across client networks and web applications.</p>
+            <ul>
+              <li>Web application and network penetration testing</li>
+              <li>Vulnerability identification, exploitation, and documentation</li>
+              <li>Detailed remediation recommendations and client reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading reveal">Technical <span>Skills</span></h2>
+      <div class="services-container">
+        <div class="service-box reveal" style="--delay:0.1s">
+          <div class="service-info">
+            <h4>&#127760; Web &amp; API Pentesting</h4>
+            <p>Manual black &amp; grey box testing of web apps and REST/GraphQL APIs. Deep expertise in OWASP Top 10 &mdash; SQLi, XSS, SSRF, XXE, IDOR, auth bypass, OAuth misconfigs, and business logic flaws. Core stack: <strong>Burp Suite Pro</strong>, ZAP, ffuf, sqlmap.</p>
+          </div>
+        </div>
+        <div class="service-box reveal" style="--delay:0.2s">
+          <div class="service-info">
+            <h4>&#127984; Red Team &amp; Active Directory</h4>
+            <p>Full red team operations &mdash; AD enumeration and exploitation via <strong>BloodHound, Mimikatz, Rubeus</strong>. Kerberoasting, Pass-the-Hash, DCSync, Golden/Silver tickets, lateral movement, and persistence. Phishing with <strong>Evilginx &amp; Gophish</strong>.</p>
+          </div>
+        </div>
+        <div class="service-box reveal" style="--delay:0.3s">
+          <div class="service-info">
+            <h4>&#128241; Mobile Security</h4>
+            <p>Android &amp; iOS penetration testing end-to-end. Static analysis with <strong>MobSF &amp; Jadx</strong>, dynamic analysis with <strong>Frida &amp; Objection</strong>, ADB manipulation, SSL pinning bypass, and Checkra1n for iOS jailbreaking.</p>
+          </div>
+        </div>
+        <div class="service-box reveal" style="--delay:0.4s">
+          <div class="service-info">
+            <h4>&#9729;&#65039; Cloud &amp; Network Security</h4>
+            <p>AWS security assessments: IAM privilege escalation, S3 bucket misconfigs, IaaS/SaaS/PaaS attack paths. Network recon with <strong>Nmap &amp; Naabu</strong>, Wireshark packet analysis. <strong>Docker, Kubernetes</strong>, and CI/CD pipeline security with SonarQube.</p>
+          </div>
+        </div>
+        <div class="service-box reveal" style="--delay:0.5s">
+          <div class="service-info">
+            <h4>&#127907; Phishing &amp; Social Engineering</h4>
+            <p>Adversary simulation using <strong>Evilginx2</strong> for credential harvesting with MFA bypass, Gophish phishing campaigns, pretexting and vishing scenarios. Full social engineering kill-chain for red team engagements targeting enterprise environments.</p>
+          </div>
+        </div>
+        <div class="service-box reveal" style="--delay:0.6s">
+          <div class="service-info">
+            <h4>&#128269; Recon, OSINT &amp; Tooling</h4>
+            <p>Attack surface discovery via <strong>Subfinder, Amass, ffuf</strong>, Shodan and Censys. Python &amp; Bash scripting for automation and custom tooling. OS environments: <strong>Kali Linux, macOS, Windows</strong>. Strong technical and executive report writing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <h2 class="heading reveal">Certifications <span>&amp; Credentials</span></h2>
+      <div class="certificates-grid">
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner offsec-bg">
+              <span class="cert-logo-text">OffSec</span>
+              <span class="cert-title-big">OSCP+</span>
+              <span class="cert-sub">OffSec Certified Professional Plus</span>
+            </div>
+          </div>
+          <h3>OSCP+</h3>
+          <p><strong>Issued by:</strong> Offensive Security</p>
+          <p><strong>Date:</strong> December 12, 2025</p>
+          <p><strong>OSID:</strong> 57166646</p>
+          <a href="src/certifications/oscp_plus.pdf" target="_blank" class="btn-cert">View Certificate</a>
+        </div>
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner offsec-bg">
+              <span class="cert-logo-text">OffSec</span>
+              <span class="cert-title-big">OSCP</span>
+              <span class="cert-sub">OffSec Certified Professional</span>
+            </div>
+          </div>
+          <h3>OSCP</h3>
+          <p><strong>Issued by:</strong> Offensive Security</p>
+          <p><strong>Date:</strong> December 12, 2025</p>
+          <a href="src/certifications/oscp.pdf" target="_blank" class="btn-cert">View Certificate</a>
+        </div>
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner ewptx-bg">
+              <span class="cert-logo-text">eLearnSecurity</span>
+              <span class="cert-title-big">eWPTX</span>
+              <span class="cert-sub">Web App Pentesting eXtreme v2</span>
+            </div>
+          </div>
+          <h3>eWPTX v2</h3>
+          <p><strong>Issued by:</strong> eLearnSecurity</p>
+          <p><strong>Date:</strong> February 23, 2022</p>
+          <p><strong>ID:</strong> 3205833</p>
+          <a href="src/certifications/ewptx.pdf" target="_blank" class="btn-cert">View Certificate</a>
+        </div>
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner crtp-bg">
+              <span class="cert-logo-text">Altered Security</span>
+              <span class="cert-title-big">CRTP</span>
+              <span class="cert-sub">Certified Red Team Professional</span>
+            </div>
+          </div>
+          <h3>CRTP</h3>
+          <p><strong>Issued by:</strong> Altered Security</p>
+          <p><strong>Date:</strong> September 20, 2024</p>
+          <p><strong>ID:</strong> ADLID7452</p>
+          <a href="src/certifications/crtp.pdf" target="_blank" class="btn-cert">View Certificate</a>
+        </div>
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner aws-bg">
+              <span class="cert-logo-text">AWS</span>
+              <span class="cert-title-big">Security</span>
+              <span class="cert-sub">AWS Certified Security &mdash; Specialty</span>
+            </div>
+          </div>
+          <h3>AWS Certified Security &mdash; Specialty</h3>
+          <p><strong>Issued by:</strong> Amazon Web Services (AWS)</p>
+          <p><strong>Status:</strong> Pursuing</p>
+        </div>
+
+        <div class="certificate-card reveal">
+          <div class="cert-preview">
+            <div class="cert-preview-inner jlpt-bg">
+              <span class="cert-logo-text">JLPT</span>
+              <span class="cert-title-big">N5</span>
+              <span class="cert-sub">Japanese Language Proficiency</span>
+            </div>
+          </div>
+          <h3>JLPT N5</h3>
+          <p><strong>Issued by:</strong> The Japan Foundation</p>
+          <p><strong>Date:</strong> July 7, 2019</p>
+          <p><strong>ID:</strong> N5A238977A</p>
+          <a href="src/certifications/jlpt_n5.jpeg" target="_blank" class="btn-cert">View Certificate</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading reveal">Writeups <span>&amp; Notes</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box reveal">
+          <h3>OSCP Guidebook</h3>
+          <div class="portfolio-preview">
+            <div class="portfolio-item" style="width:100%">
+              <div style="font-size:3.5rem;text-align:center;padding:1.5rem">&#128203;</div>
+              <h4><a href="https://mokshs-private-organization.gitbook.io/offsec-notes" target="_blank" rel="noopener noreferrer">Personal OSCP Handbook</a></h4>
+              <p style="font-size:1.4rem;color:#aaa;padding:1rem 0">Full OSCP methodology, privesc checklists, exploitation techniques and tooling built through PEN-200 lab work.</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box reveal">
+          <h3>CRTP Notes</h3>
+          <div class="portfolio-preview">
+            <div class="portfolio-item" style="width:100%">
+              <div style="font-size:3.5rem;text-align:center;padding:1.5rem">&#127984;</div>
+              <h4><a href="https://mokshs-private-organization.gitbook.io/crtp/" target="_blank" rel="noopener noreferrer">CRTP Notes</a></h4>
+              <p style="font-size:1.4rem;color:#aaa;padding:1rem 0">Active Directory attack paths, Kerberoasting, BloodHound enumeration, lateral movement, and persistence techniques.</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box reveal">
+          <h3>PG &amp; HTB Checklist</h3>
+          <div class="portfolio-preview">
+            <div class="portfolio-item" style="width:100%">
+              <div style="font-size:3.5rem;text-align:center;padding:1.5rem">&#9989;</div>
+              <h4><a href="https://mokshs-private-organization.gitbook.io/htb-short-writeup" target="_blank" rel="noopener noreferrer">Checklist</a></h4>
+              <p style="font-size:1.4rem;color:#aaa;padding:1rem 0">Concise HTB machine solutions covering Linux &amp; Windows — SSRF, SQLi, LFI, command injection, privesc chains and more.</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box reveal">
+          <h3>HTB Labs Walkthrough</h3>
+          <div class="portfolio-preview">
+            <div class="portfolio-item" style="width:100%">
+              <div style="font-size:3.5rem;text-align:center;padding:1.5rem">&#128300;</div>
+              <h4><a href="https://mokshs-private-organization.gitbook.io/htb-labs/" target="_blank" rel="noopener noreferrer">Walkthrough</a></h4>
+              <p style="font-size:1.4rem;color:#aaa;padding:1rem 0">Detailed walkthroughs of HTB machines with full enumeration, exploitation paths, and privilege escalation breakdowns.</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box reveal">
+          <h3>Web Security Notes</h3>
+          <div class="portfolio-preview">
+            <div class="portfolio-item" style="width:100%">
+              <div style="font-size:3.5rem;text-align:center;padding:1.5rem">&#128376;&#65039;</div>
+              <h4><a href="https://mokshs-private-organization.gitbook.io/web" target="_blank" rel="noopener noreferrer">web</a></h4>
+              <p style="font-size:1.4rem;color:#aaa;padding:1rem 0">Vulnerability patterns, payload collections, and methodology notes from real-world engagements and PortSwigger labs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    BUG BOUNTY FINDINGS - UNCOMMENT WHEN READY
+    <section class="docs" id="docs">
+      <h2 class="heading reveal">Bug Bounty <span>Findings</span></h2>
+      <div class="docs-container reveal">
+        <div class="docs-text">
+          <h3>Hall of Fame &amp; Disclosures</h3>
+          <p>Bug bounty findings, CVEs, and Hall of Fame mentions will be listed here.</p>
+          <ul class="guide-list">
+            <li>Critical &amp; High severity findings</li>
+            <li>Hall of Fame mentions</li>
+            <li>Responsible disclosure writeups</li>
+            <li>Platforms: HackerOne, Bugcrowd</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://linkedin.com/in/vaibhav-batra-8b7014287" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/psyc177" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://x.com/psyc177" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="mailto:vaibhav.techi01@gmail.com"><i class="bx bx-envelope"></i></a>
+      </div>
+      <p class="copyright">&copy; Vaibhav Batra | psychichacker.xyz | All Rights Reserved</p>
+    </footer>
+
+    <button id="scroll-to-top" class="scroll-to-top">&#8593;</button>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <div id="toast" class="toast"></div>
+  </body>
+</html>
